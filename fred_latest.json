@@ -1,0 +1,45 @@
+{
+  "asof_utc": "2026-06-26T06:50:16Z",
+  "series": {
+    "BAMLH0A0HYM2": {
+      "date": "2026-06-24",
+      "value": "2.76",
+      "kind": "level"
+    },
+    "BAMLC0A0CM": {
+      "date": "2026-06-24",
+      "value": "0.75",
+      "kind": "level"
+    },
+    "T5YIFR": {
+      "date": "2026-06-25",
+      "value": "2.19",
+      "kind": "level"
+    },
+    "CPIAUCSL": {
+      "date": "2026-05-01",
+      "value": "4.16661",
+      "kind": "yoy_pct"
+    },
+    "CPILFESL": {
+      "date": "2026-05-01",
+      "value": "2.82294",
+      "kind": "yoy_pct"
+    },
+    "PCEPI": {
+      "date": "2026-05-01",
+      "value": "4.07264",
+      "kind": "yoy_pct"
+    },
+    "PCEPILFE": {
+      "date": "2026-05-01",
+      "value": "3.41204",
+      "kind": "yoy_pct"
+    },
+    "PPIFIS": {
+      "date": "2026-05-01",
+      "value": "6.41634",
+      "kind": "yoy_pct"
+    }
+  }
+}
