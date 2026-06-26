@@ -1,0 +1,27 @@
+name: fetch-fred
+
+on:
+  schedule:
+    # 21:00 UTC on weekdays — runs before the 21:30 UTC post-close macro wrap routine
+    - cron: "0 21 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch FRED series
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python3 fetch_fred.py
+      - name: Commit fred_latest.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add fred_latest.json
+          git commit -m "update fred_latest.json [skip ci]" || echo "no changes"
+          git push
