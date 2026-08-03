@@ -1,5 +1,5 @@
 {
-  "asof_utc": "2026-07-31T22:02:40Z",
+  "asof_utc": "2026-08-03T22:06:37Z",
   "series": {
     "BAMLH0A0HYM2": {
       "date": "2026-07-30",
@@ -12,8 +12,8 @@
       "kind": "level"
     },
     "T5YIFR": {
-      "date": "2026-07-31",
-      "value": "2.3",
+      "date": "2026-08-03",
+      "value": "2.31",
       "kind": "level"
     },
     "CPIAUCSL": {
