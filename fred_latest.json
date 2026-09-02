@@ -1,18 +1,18 @@
 {
-  "asof_utc": "2026-09-01T22:59:25Z",
+  "asof_utc": "2026-09-02T22:58:09Z",
   "series": {
     "BAMLH0A0HYM2": {
-      "date": "2026-08-31",
-      "value": "2.63",
+      "date": "2026-09-01",
+      "value": "2.65",
       "kind": "level"
     },
     "BAMLC0A0CM": {
-      "date": "2026-08-31",
-      "value": "0.8",
+      "date": "2026-09-01",
+      "value": "0.81",
       "kind": "level"
     },
     "T5YIFR": {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "value": "2.33",
       "kind": "level"
     },
