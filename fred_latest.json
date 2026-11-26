@@ -1,19 +1,19 @@
 {
-  "asof_utc": "2026-11-25T03:56:08Z",
+  "asof_utc": "2026-11-26T03:21:26Z",
   "series": {
     "BAMLH0A0HYM2": {
-      "date": "2026-11-23",
-      "value": "3.63",
+      "date": "2026-11-24",
+      "value": "3.72",
       "kind": "level"
     },
     "BAMLC0A0CM": {
-      "date": "2026-11-23",
-      "value": "0.97",
+      "date": "2026-11-24",
+      "value": "0.98",
       "kind": "level"
     },
     "T5YIFR": {
-      "date": "2026-11-24",
-      "value": "2.13",
+      "date": "2026-11-25",
+      "value": "2.11",
       "kind": "level"
     },
     "CPIAUCSL": {
@@ -27,13 +27,13 @@
       "kind": "yoy_pct"
     },
     "PCEPI": {
-      "date": "2026-09-01",
-      "value": "3.64887",
+      "date": "2026-10-01",
+      "value": "3.84459",
       "kind": "yoy_pct"
     },
     "PCEPILFE": {
-      "date": "2026-09-01",
-      "value": "3.12116",
+      "date": "2026-10-01",
+      "value": "3.26112",
       "kind": "yoy_pct"
     },
     "PPIFIS": {
